@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "968964278198",
+    "project_id": "epfetfbalancecheckersbewl",
+    "storage_bucket": "epfetfbalancecheckersbewl.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:968964278198:android:78e883e4bcc8d243e86317",
+        "android_client_info": {
+          "package_name": "com.example.epfetfbalancecheckersbewl"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "968964278198-rm9pvu8b1vs24feogase2h16navp84qq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0BwfoZye2LK4b9qQI4y1x6atdZjIhyiM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "968964278198-rm9pvu8b1vs24feogase2h16navp84qq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

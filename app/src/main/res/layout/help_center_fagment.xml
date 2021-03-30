@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".Screen.HelpCenterFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:scaleType="fitXY"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/labour_dept" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="-100dp"
+            android:layout_gravity="bottom"
+            android:background="@drawable/title_background"
+            />
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/black"
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:textSize="16dp"
+            android:layout_height="wrap_content"
+            android:text="@string/text_help" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp"
+            android:drawableStart="@drawable/ic_baseline_call_24"
+            android:layout_width="match_parent"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+
+            android:layout_height="wrap_content"
+            android:text=" 011 2581142 " />
+
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp"
+            android:drawableStart="@drawable/ic_baseline_web_24"
+            android:layout_width="match_parent"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:autoLink="web"
+
+            android:layout_height="wrap_content"
+            android:text=" www.labourdept.gov.lk " />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_marginTop="30dp"
+            android:autoLink="web"
+
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp"
+            android:drawableStart="@drawable/ic_baseline_email_24"
+            android:layout_width="match_parent"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+
+            android:layout_height="wrap_content"
+            android:text=" contacts@labourdept.gov.lk" />
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

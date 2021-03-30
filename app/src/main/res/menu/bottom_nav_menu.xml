@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/navigation_my_appoi"
+        android:icon="@drawable/ic_baseline_account_circle_24"
+        android:title="Profile" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/ic_baseline_live_help_24"
+        android:title="Help center" />
+
+
+    <item
+        android:id="@+id/navigation_logout"
+        android:icon="@drawable/ic_baseline_exit_to_app_24"
+        android:title="Log Out" />
+
+</menu>
